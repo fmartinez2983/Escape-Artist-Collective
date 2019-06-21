@@ -1,0 +1,608 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		595D9ACA22BCA63800A0E218 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 595D9AC922BCA63800A0E218 /* AppDelegate.swift */; };
+		595D9ACC22BCA63800A0E218 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 595D9ACB22BCA63800A0E218 /* ViewController.swift */; };
+		595D9ACF22BCA63900A0E218 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 595D9ACD22BCA63900A0E218 /* Main.storyboard */; };
+		595D9AD222BCA63900A0E218 /* Escape_Artist_Collective.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 595D9AD022BCA63900A0E218 /* Escape_Artist_Collective.xcdatamodeld */; };
+		595D9AD422BCA63F00A0E218 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 595D9AD322BCA63F00A0E218 /* Assets.xcassets */; };
+		595D9AD722BCA63F00A0E218 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 595D9AD522BCA63F00A0E218 /* LaunchScreen.storyboard */; };
+		595D9AE222BCA63F00A0E218 /* Escape_Artist_CollectiveTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 595D9AE122BCA63F00A0E218 /* Escape_Artist_CollectiveTests.swift */; };
+		595D9AED22BCA63F00A0E218 /* Escape_Artist_CollectiveUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 595D9AEC22BCA63F00A0E218 /* Escape_Artist_CollectiveUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		595D9ADE22BCA63F00A0E218 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 595D9ABE22BCA63800A0E218 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 595D9AC522BCA63800A0E218;
+			remoteInfo = "Escape Artist Collective";
+		};
+		595D9AE922BCA63F00A0E218 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 595D9ABE22BCA63800A0E218 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 595D9AC522BCA63800A0E218;
+			remoteInfo = "Escape Artist Collective";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		595D9AC622BCA63800A0E218 /* Escape Artist Collective.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Escape Artist Collective.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		595D9AC922BCA63800A0E218 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		595D9ACB22BCA63800A0E218 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		595D9ACE22BCA63900A0E218 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		595D9AD122BCA63900A0E218 /* Escape_Artist_Collective.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Escape_Artist_Collective.xcdatamodel; sourceTree = "<group>"; };
+		595D9AD322BCA63F00A0E218 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		595D9AD622BCA63F00A0E218 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		595D9AD822BCA63F00A0E218 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		595D9ADD22BCA63F00A0E218 /* Escape Artist CollectiveTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Escape Artist CollectiveTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		595D9AE122BCA63F00A0E218 /* Escape_Artist_CollectiveTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Escape_Artist_CollectiveTests.swift; sourceTree = "<group>"; };
+		595D9AE322BCA63F00A0E218 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		595D9AE822BCA63F00A0E218 /* Escape Artist CollectiveUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Escape Artist CollectiveUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		595D9AEC22BCA63F00A0E218 /* Escape_Artist_CollectiveUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Escape_Artist_CollectiveUITests.swift; sourceTree = "<group>"; };
+		595D9AEE22BCA63F00A0E218 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		595D9AC322BCA63800A0E218 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		595D9ADA22BCA63F00A0E218 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		595D9AE522BCA63F00A0E218 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		595D9ABD22BCA63800A0E218 = {
+			isa = PBXGroup;
+			children = (
+				595D9AC822BCA63800A0E218 /* Escape Artist Collective */,
+				595D9AE022BCA63F00A0E218 /* Escape Artist CollectiveTests */,
+				595D9AEB22BCA63F00A0E218 /* Escape Artist CollectiveUITests */,
+				595D9AC722BCA63800A0E218 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		595D9AC722BCA63800A0E218 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				595D9AC622BCA63800A0E218 /* Escape Artist Collective.app */,
+				595D9ADD22BCA63F00A0E218 /* Escape Artist CollectiveTests.xctest */,
+				595D9AE822BCA63F00A0E218 /* Escape Artist CollectiveUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		595D9AC822BCA63800A0E218 /* Escape Artist Collective */ = {
+			isa = PBXGroup;
+			children = (
+				595D9AC922BCA63800A0E218 /* AppDelegate.swift */,
+				595D9ACB22BCA63800A0E218 /* ViewController.swift */,
+				595D9ACD22BCA63900A0E218 /* Main.storyboard */,
+				595D9AD322BCA63F00A0E218 /* Assets.xcassets */,
+				595D9AD522BCA63F00A0E218 /* LaunchScreen.storyboard */,
+				595D9AD822BCA63F00A0E218 /* Info.plist */,
+				595D9AD022BCA63900A0E218 /* Escape_Artist_Collective.xcdatamodeld */,
+			);
+			path = "Escape Artist Collective";
+			sourceTree = "<group>";
+		};
+		595D9AE022BCA63F00A0E218 /* Escape Artist CollectiveTests */ = {
+			isa = PBXGroup;
+			children = (
+				595D9AE122BCA63F00A0E218 /* Escape_Artist_CollectiveTests.swift */,
+				595D9AE322BCA63F00A0E218 /* Info.plist */,
+			);
+			path = "Escape Artist CollectiveTests";
+			sourceTree = "<group>";
+		};
+		595D9AEB22BCA63F00A0E218 /* Escape Artist CollectiveUITests */ = {
+			isa = PBXGroup;
+			children = (
+				595D9AEC22BCA63F00A0E218 /* Escape_Artist_CollectiveUITests.swift */,
+				595D9AEE22BCA63F00A0E218 /* Info.plist */,
+			);
+			path = "Escape Artist CollectiveUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		595D9AC522BCA63800A0E218 /* Escape Artist Collective */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 595D9AF122BCA63F00A0E218 /* Build configuration list for PBXNativeTarget "Escape Artist Collective" */;
+			buildPhases = (
+				595D9AC222BCA63800A0E218 /* Sources */,
+				595D9AC322BCA63800A0E218 /* Frameworks */,
+				595D9AC422BCA63800A0E218 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Escape Artist Collective";
+			productName = "Escape Artist Collective";
+			productReference = 595D9AC622BCA63800A0E218 /* Escape Artist Collective.app */;
+			productType = "com.apple.product-type.application";
+		};
+		595D9ADC22BCA63F00A0E218 /* Escape Artist CollectiveTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 595D9AF422BCA63F00A0E218 /* Build configuration list for PBXNativeTarget "Escape Artist CollectiveTests" */;
+			buildPhases = (
+				595D9AD922BCA63F00A0E218 /* Sources */,
+				595D9ADA22BCA63F00A0E218 /* Frameworks */,
+				595D9ADB22BCA63F00A0E218 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				595D9ADF22BCA63F00A0E218 /* PBXTargetDependency */,
+			);
+			name = "Escape Artist CollectiveTests";
+			productName = "Escape Artist CollectiveTests";
+			productReference = 595D9ADD22BCA63F00A0E218 /* Escape Artist CollectiveTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		595D9AE722BCA63F00A0E218 /* Escape Artist CollectiveUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 595D9AF722BCA63F00A0E218 /* Build configuration list for PBXNativeTarget "Escape Artist CollectiveUITests" */;
+			buildPhases = (
+				595D9AE422BCA63F00A0E218 /* Sources */,
+				595D9AE522BCA63F00A0E218 /* Frameworks */,
+				595D9AE622BCA63F00A0E218 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				595D9AEA22BCA63F00A0E218 /* PBXTargetDependency */,
+			);
+			name = "Escape Artist CollectiveUITests";
+			productName = "Escape Artist CollectiveUITests";
+			productReference = 595D9AE822BCA63F00A0E218 /* Escape Artist CollectiveUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		595D9ABE22BCA63800A0E218 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1020;
+				LastUpgradeCheck = 1020;
+				ORGANIZATIONNAME = "FRANCISCO MARTINEZ";
+				TargetAttributes = {
+					595D9AC522BCA63800A0E218 = {
+						CreatedOnToolsVersion = 10.2.1;
+					};
+					595D9ADC22BCA63F00A0E218 = {
+						CreatedOnToolsVersion = 10.2.1;
+						TestTargetID = 595D9AC522BCA63800A0E218;
+					};
+					595D9AE722BCA63F00A0E218 = {
+						CreatedOnToolsVersion = 10.2.1;
+						TestTargetID = 595D9AC522BCA63800A0E218;
+					};
+				};
+			};
+			buildConfigurationList = 595D9AC122BCA63800A0E218 /* Build configuration list for PBXProject "Escape Artist Collective" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 595D9ABD22BCA63800A0E218;
+			productRefGroup = 595D9AC722BCA63800A0E218 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				595D9AC522BCA63800A0E218 /* Escape Artist Collective */,
+				595D9ADC22BCA63F00A0E218 /* Escape Artist CollectiveTests */,
+				595D9AE722BCA63F00A0E218 /* Escape Artist CollectiveUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		595D9AC422BCA63800A0E218 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				595D9AD722BCA63F00A0E218 /* LaunchScreen.storyboard in Resources */,
+				595D9AD422BCA63F00A0E218 /* Assets.xcassets in Resources */,
+				595D9ACF22BCA63900A0E218 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		595D9ADB22BCA63F00A0E218 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		595D9AE622BCA63F00A0E218 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		595D9AC222BCA63800A0E218 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				595D9ACC22BCA63800A0E218 /* ViewController.swift in Sources */,
+				595D9AD222BCA63900A0E218 /* Escape_Artist_Collective.xcdatamodeld in Sources */,
+				595D9ACA22BCA63800A0E218 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		595D9AD922BCA63F00A0E218 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				595D9AE222BCA63F00A0E218 /* Escape_Artist_CollectiveTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		595D9AE422BCA63F00A0E218 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				595D9AED22BCA63F00A0E218 /* Escape_Artist_CollectiveUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		595D9ADF22BCA63F00A0E218 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 595D9AC522BCA63800A0E218 /* Escape Artist Collective */;
+			targetProxy = 595D9ADE22BCA63F00A0E218 /* PBXContainerItemProxy */;
+		};
+		595D9AEA22BCA63F00A0E218 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 595D9AC522BCA63800A0E218 /* Escape Artist Collective */;
+			targetProxy = 595D9AE922BCA63F00A0E218 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		595D9ACD22BCA63900A0E218 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				595D9ACE22BCA63900A0E218 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		595D9AD522BCA63F00A0E218 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				595D9AD622BCA63F00A0E218 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		595D9AEF22BCA63F00A0E218 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		595D9AF022BCA63F00A0E218 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		595D9AF222BCA63F00A0E218 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 4ZRTFFQ77X;
+				INFOPLIST_FILE = "Escape Artist Collective/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.gameon.Escape-Artist-Collective";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		595D9AF322BCA63F00A0E218 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 4ZRTFFQ77X;
+				INFOPLIST_FILE = "Escape Artist Collective/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.gameon.Escape-Artist-Collective";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		595D9AF522BCA63F00A0E218 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 4ZRTFFQ77X;
+				INFOPLIST_FILE = "Escape Artist CollectiveTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.gameon.Escape-Artist-CollectiveTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Escape Artist Collective.app/Escape Artist Collective";
+			};
+			name = Debug;
+		};
+		595D9AF622BCA63F00A0E218 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 4ZRTFFQ77X;
+				INFOPLIST_FILE = "Escape Artist CollectiveTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.gameon.Escape-Artist-CollectiveTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Escape Artist Collective.app/Escape Artist Collective";
+			};
+			name = Release;
+		};
+		595D9AF822BCA63F00A0E218 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 4ZRTFFQ77X;
+				INFOPLIST_FILE = "Escape Artist CollectiveUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.gameon.Escape-Artist-CollectiveUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Escape Artist Collective";
+			};
+			name = Debug;
+		};
+		595D9AF922BCA63F00A0E218 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 4ZRTFFQ77X;
+				INFOPLIST_FILE = "Escape Artist CollectiveUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.gameon.Escape-Artist-CollectiveUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Escape Artist Collective";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		595D9AC122BCA63800A0E218 /* Build configuration list for PBXProject "Escape Artist Collective" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				595D9AEF22BCA63F00A0E218 /* Debug */,
+				595D9AF022BCA63F00A0E218 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		595D9AF122BCA63F00A0E218 /* Build configuration list for PBXNativeTarget "Escape Artist Collective" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				595D9AF222BCA63F00A0E218 /* Debug */,
+				595D9AF322BCA63F00A0E218 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		595D9AF422BCA63F00A0E218 /* Build configuration list for PBXNativeTarget "Escape Artist CollectiveTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				595D9AF522BCA63F00A0E218 /* Debug */,
+				595D9AF622BCA63F00A0E218 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		595D9AF722BCA63F00A0E218 /* Build configuration list for PBXNativeTarget "Escape Artist CollectiveUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				595D9AF822BCA63F00A0E218 /* Debug */,
+				595D9AF922BCA63F00A0E218 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		595D9AD022BCA63900A0E218 /* Escape_Artist_Collective.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				595D9AD122BCA63900A0E218 /* Escape_Artist_Collective.xcdatamodel */,
+			);
+			currentVersion = 595D9AD122BCA63900A0E218 /* Escape_Artist_Collective.xcdatamodel */;
+			path = Escape_Artist_Collective.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 595D9ABE22BCA63800A0E218 /* Project object */;
+}
